@@ -5,7 +5,7 @@
 
 body {
 
-    background : linear-gradient( to right , limegreen , lightblue ) ;
+    background-color : #1a1a1aff ;
     background-repeat: none ;
 }
 
@@ -33,91 +33,64 @@ body {
 .navigate-bar li:hover {
 
     transition-duration : 0.1s ;
-    border-bottom : solid lightblue ;
+    border-bottom : solid gold 8px ;
 }
 
-/* Middle Content */
+/* First 4 Logos [ First Row ] */
 
-/* Project 1 */
+.logos-container-1 {
 
-.middle-container-1 {
-
-    margin-top : 100px ;
     display : flex ;
+    padding-top : 50px ;
+    padding-left : 120px ;
 }
 
-.middle-container-1-content {
+.logo_img_1 {
 
-    border-radius : 15px ;
-    background : linear-gradient( to right bottom , limegreen , lightblue ) ;
-    flex : 30% ;
-    font-size : 20px ;
-    transition-duration : 0.2s ;
+    flex : 25% ;
 }
 
-.middle-container-1-content:hover {
+.logo_img_2 {
 
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px lightblue;
+    flex : 25% ;
 }
 
-.middle-container-1-img {
+.logo_img_3 {
 
-    flex : 50% ;
-    border-radius : 15px ;
+    flex : 25% ;
 }
 
-.content-1 {
+.logo_img_4 {
 
-    padding : 50px ;
-    margin-left : 20px ;
+    flex : 25% ;
 }
 
-.img-1 {
+/* Second 4 Logos [ Second Row ] */
 
-    margin-left : 130px ;
-    border-radius : 15px ;
-}
 
-/* Project 2 */
+.logos-container-2 {
 
-.middle-container-2 {
-
-    margin-top : 100px ;
     display : flex ;
+    padding-top : 50px ;
+    padding-left : 120px ;
 }
 
-.middle-container-2-content {
+.logo_img_5 {
 
-    border-radius : 15px ;
-    background : linear-gradient( to right bottom , limegreen , lightblue ) ;
-    flex : 30% ;
-    font-size : 20px ;
-    transition-duration : 0.2s ;
+    flex : 25% ;
 }
 
-.middle-container-2-content:hover {
+.logo_img_6 {
 
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px lightblue ;
+    flex : 25% ;
 }
 
-.middle-container-2-img {
+.logo_img_7 {
 
-    flex : 50% ;
-    border-radius : 15px ;
+    flex : 25% ;
 }
 
-.content-2 {
+.logo_img_8 {
 
-    padding : 50px ;
-    margin-left : 20px ;
-}
-
-.img-2 {
-
-    margin-left : 130px ;
-    border-radius : 15px ;
+    flex : 25% ;
 }
