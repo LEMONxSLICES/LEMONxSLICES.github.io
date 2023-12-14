@@ -5,7 +5,7 @@
 
 body {
 
-    background : linear-gradient( to right , limegreen , lightblue ) ;
+    background : linear-gradient( to right , limegreen , rgb(255, 255, 37) ) ;
     background-repeat: none ;
 }
 
@@ -33,7 +33,7 @@ body {
 .navigate-bar li:hover {
 
     transition-duration : 0.1s ;
-    border-bottom : solid lightblue ;
+    border-bottom : solid rgb(74, 170, 226) 8px ;
 }
 
 /* Middle Content */
@@ -49,7 +49,7 @@ body {
 .middle-container-1-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , limegreen , lightblue ) ;
+    background : linear-gradient( to right bottom , limegreen , rgb(255, 255, 37) ) ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
@@ -59,7 +59,7 @@ body {
 
     margin-bottom : 3px ;
     margin-left : 3px ;
-    box-shadow: inset 8px -8px lightblue;
+    box-shadow: inset 8px -8px rgb(255, 255, 37) ;
 }
 
 .middle-container-1-img {
@@ -91,7 +91,7 @@ body {
 .middle-container-2-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , limegreen , lightblue ) ;
+    background : linear-gradient( to right bottom , limegreen , rgb(255, 255, 37) ) ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
@@ -101,7 +101,7 @@ body {
 
     margin-bottom : 3px ;
     margin-left : 3px ;
-    box-shadow: inset 8px -8px lightblue ;
+    box-shadow: inset 8px -8px rgb(255, 255, 37) ;
 }
 
 .middle-container-2-img {

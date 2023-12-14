@@ -33,7 +33,7 @@ body {
 .navigate-bar li:hover {
 
     transition-duration : 0.1s ;
-    border-bottom : solid lightblue ;
+    border-bottom : solid rgb(255, 62, 62) 8px ;
 }
 
 /* Middle Content */
