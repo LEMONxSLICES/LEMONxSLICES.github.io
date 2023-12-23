@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="Alchemy Club.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.25982083"
+     inkscape:cx="946.8063"
+     inkscape:cy="944.8819"
+     inkscape:window-width="1356"
+     inkscape:window-height="697"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:6.03685;stroke-dasharray:none;stroke-opacity:1"
+       d="m 159.56597,45.070822 c -13.36214,0 -24.11946,10.757316 -24.11946,24.119456 V 259.65876 c 0,7.67503 3.55997,14.47743 9.11314,18.88877 L 255.15704,385.75546 367.16829,277.17707 c 0.24316,-0.2301 0.487,-0.45815 0.72037,-0.69815 l 0.15658,-0.15193 h -0.0186 c 4.13542,-4.32591 6.68383,-10.18342 6.68383,-16.66823 V 69.190278 c 0,-13.36214 -10.75731,-24.119456 -24.11946,-24.119456 z" />
+    <path
+       id="path2"
+       style="fill:none;fill-opacity:1;stroke:#a0a0a0;stroke-width:5.63753;stroke-dasharray:none;stroke-opacity:1"
+       d="m 166.06378,53.058398 c -12.47829,0 -22.52405,10.04576 -22.52405,22.52405 V 253.45214 c 0,7.16736 3.32449,13.51981 8.51034,17.63935 L 255.33185,371.20801 359.93397,269.81168 c 0.22708,-0.21488 0.45479,-0.42784 0.67272,-0.65197 l 0.14623,-0.14188 h -0.0174 c 3.86187,-4.03976 6.24172,-9.50982 6.24172,-15.56569 V 75.582448 c 0,-12.47829 -10.04576,-22.52405 -22.52405,-22.52405 z" />
+    <g
+       id="g9"
+       transform="matrix(1.1449882,0.5286024,-0.5286024,1.1449882,101.94024,-214.18379)">
+      <g
+         id="g3"
+         transform="matrix(0.67083361,-0.30854413,0.30854413,0.67083361,13.997989,163.88512)">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#efefef;stroke-width:7.04588;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2"
+           width="50.671558"
+           height="6.6938138"
+           x="215.33817"
+           y="149.25159"
+           ry="3.3469069" />
+        <rect
+           style="opacity:1;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:7.23367;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3"
+           width="30.12541"
+           height="67.305443"
+           x="225.61124"
+           y="157.0719"
+           ry="0" />
+        <path
+           sodipodi:type="star"
+           style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#efefef;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path3"
+           inkscape:flatsided="true"
+           sodipodi:sides="3"
+           sodipodi:cx="221.10851"
+           sodipodi:cy="244.04456"
+           sodipodi:r1="57.464119"
+           sodipodi:r2="28.732059"
+           sodipodi:arg1="0.52359878"
+           sodipodi:arg2="1.5707963"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 270.87389,272.77662 -99.53077,-10e-6 49.76539,-86.19617 z"
+           inkscape:transform-center-x="2.7856192e-06"
+           inkscape:transform-center-y="-14.366032"
+           transform="translate(19.565444,8.9782955)" />
+        <path
+           id="path6"
+           style="opacity:1;fill:#23ff14;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:transform-center-x="2.2318253e-06"
+           inkscape:transform-center-y="-11.425098"
+           d="m 247.41624,232.14741 a 28.672957,28.672957 0 0 1 -34.21888,8.03713 28.672957,28.672957 0 0 1 -14.40701,-14.94879 l -27.44723,47.54091 99.53071,2.2e-4 z"
+           transform="matrix(0.79528555,0,0,0.79528555,65.031156,59.129716)" />
+      </g>
+      <circle
+         style="fill:#23ff14;fill-opacity:1;stroke:none;stroke-width:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path7"
+         cx="254.40511"
+         cy="246.02852"
+         r="1.7711881" />
+      <circle
+         style="fill:#23ff14;fill-opacity:1;stroke:none;stroke-width:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path8"
+         cx="243.50232"
+         cy="245.09413"
+         r="4.3460636" />
+      <circle
+         style="fill:#23ff14;fill-opacity:1;stroke:none;stroke-width:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path9"
+         cx="251.09805"
+         cy="236.10878"
+         r="2.3997052" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.0451px;line-height:1;font-family:'Super Power';-inkscape-font-specification:'Super Power';letter-spacing:0px;word-spacing:0px;fill:#ff178e;fill-opacity:1;stroke:none;stroke-width:3.01381;stroke-dasharray:none;stroke-opacity:1"
+       x="68.582146"
+       y="453.54797"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="fill:#82ff17;fill-opacity:1;stroke:none;stroke-width:3.01381;stroke-dasharray:none;stroke-opacity:1"
+         x="68.582146"
+         y="453.54797">ALCHEMY CLUB</tspan></text>
+  </g>
+</svg>

@@ -5,7 +5,7 @@
 
 body {
 
-    background-color : #1a1a1aff ;
+    background-color : #efefefff ;
     background-repeat: none ;
 }
 
@@ -91,6 +91,66 @@ body {
 }
 
 .logo_img_8 {
+
+    flex : 25% ;
+}
+
+/* Third 4 Logos [ Third Row ] */
+
+
+.logos-container-3 {
+
+    display : flex ;
+    padding-top : 50px ;
+    padding-left : 120px ;
+}
+
+.logo_img_9 {
+
+    flex : 25% ;
+}
+
+.logo_img_10 {
+
+    flex : 25% ;
+}
+
+.logo_img_11 {
+
+    flex : 25% ;
+}
+
+.logo_img_12 {
+
+    flex : 25% ;
+}
+
+/* Fourth 4 Logos [ Fourth Row ] */
+
+
+.logos-container-4 {
+
+    display : flex ;
+    padding-top : 50px ;
+    padding-left : 120px ;
+}
+
+.logo_img_13 {
+
+    flex : 25% ;
+}
+
+.logo_img_14 {
+
+    flex : 25% ;
+}
+
+.logo_img_15 {
+
+    flex : 25% ;
+}
+
+.logo_img_16 {
 
     flex : 25% ;
 }
