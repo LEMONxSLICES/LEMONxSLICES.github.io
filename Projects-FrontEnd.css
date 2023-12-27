@@ -121,3 +121,45 @@ body {
     margin-left : 130px ;
     border-radius : 15px ;
 }
+
+/* Project 3 */
+
+.middle-container-3 {
+
+    margin-top : 100px ;
+    display : flex ;
+}
+
+.middle-container-3-content {
+
+    border-radius : 15px ;
+    background : linear-gradient( to right bottom , limegreen , rgb(255, 255, 37) ) ;
+    flex : 30% ;
+    font-size : 20px ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-3-content:hover {
+
+    margin-bottom : 3px ;
+    margin-left : 3px ;
+    box-shadow: inset 8px -8px rgb(255, 255, 37) ;
+}
+
+.middle-container-3-img {
+
+    flex : 50% ;
+    border-radius : 15px ;
+}
+
+.content-3 {
+
+    padding : 50px ;
+    margin-left : 20px ;
+}
+
+.img-3 {
+
+    margin-left : 130px ;
+    border-radius : 15px ;
+}
