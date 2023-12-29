@@ -1,28 +1,27 @@
-* {
+body , html {
 
-    font-family : Oswald , sans-serif ;
-}
-
-body {
-
-    background : linear-gradient( to right , lightblue , pink ) ;
-    background-repeat: none ;
-}
-
-/* Top Content */
-
-.head-container {
-
-    top : 0 ; left : 0 ;
     width : 100% ;
-    text-align : center ;
-    font-size : 15px ;
-    letter-spacing: 2px ;
+    height : 100% ;
+    padding : 0 ;
+    margin : 0 ;
+    font-family : Oswald , 'sans-serif' ;
+    background-color : pink ;
 }
 
 /* Navigate Bar */ 
 
-.navigate-bar li{
+.navigate-bar {
+
+    top : 0 ;
+    width : 100% ;
+    font-family : Oswald , sans-serif ;
+    background : linear-gradient( rgba( 0,0,0,0) , rgba( 0,0,0,0 ) ) ;
+    backdrop-filter : blur( 3px ) ;
+    box-shadow : 0 8px 36px 0 rgba( 0,0,0,0.10 ) ;
+    position : fixed ;
+}
+
+.navigate-bar li {
 
     font-size : 30px ;
     font-weight : bold ;
@@ -30,15 +29,24 @@ body {
     margin-left : 180px ;
 }
 
-.navigate-bar li:hover {
+.navigate-bar a {
 
+    color : #1d1d1dff ;
+    text-decoration : none ;
     transition-duration : 0.1s ;
-    border-bottom : solid rgb(255, 62, 62) 8px ;
 }
 
-/* Middle Content */
+.navigate-bar a:hover {
 
+    transition-duration : 0.1s ;
+    color : gold ;
+}
 /* Project 1 */
+
+.section {
+
+    margin : 200px 50px ;
+}
 
 .middle-container-1 {
 

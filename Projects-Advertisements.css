@@ -1,28 +1,27 @@
-* {
+body , html {
 
-    font-family : Oswald , sans-serif ;
-}
-
-body {
-
-    background : linear-gradient( to right , orange , rgb(255, 31, 31) ) ;
-    background-repeat: none ;
-}
-
-/* Top Content */
-
-.head-container {
-
-    top : 0 ; left : 0 ;
     width : 100% ;
-    text-align : center ;
-    font-size : 15px ;
-    letter-spacing: 2px ;
+    height : 100% ;
+    padding : 0 ;
+    margin : 0 ;
+    font-family : Oswald , 'sans-serif' ;
+    background : linear-gradient( to right , orange , rgb( 255 , 31 , 31 ) ) ;
 }
 
 /* Navigate Bar */ 
 
-.navigate-bar li{
+.navigate-bar {
+
+    top : 0 ;
+    width : 100% ;
+    font-family : Oswald , sans-serif ;
+    background : linear-gradient( rgba( 0,0,0,0) , rgba( 0,0,0,0 ) ) ;
+    backdrop-filter : blur( 3px ) ;
+    box-shadow : 0 8px 36px 0 rgba( 0,0,0,0.10 ) ;
+    position : fixed ;
+}
+
+.navigate-bar li {
 
     font-size : 30px ;
     font-weight : bold ;
@@ -30,14 +29,26 @@ body {
     margin-left : 180px ;
 }
 
-.navigate-bar li:hover {
+.navigate-bar a {
 
+    color : #1d1d1dff ;
+    text-decoration : none ;
     transition-duration : 0.1s ;
-    border-bottom : solid #1a1a1aff 8px ;
 }
 
-/* Middle Content */
+.navigate-bar a:hover {
 
+    transition-duration : 0.1s ;
+    color : gold ;
+}
+
+/* Content */
+
+.section {
+
+    margin-top : 200px ;
+    margin-left : 50px ;
+}
 /* Project 1 */
 
 .middle-container-1 {
@@ -53,6 +64,7 @@ body {
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
+    padding-top : 50px ;
 }
 
 .middle-container-1-content:hover {
@@ -95,6 +107,8 @@ body {
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
+    padding-top : 20px ;
+    padding-left : 20px ;
 }
 
 .middle-container-2-content:hover {
@@ -137,6 +151,7 @@ body {
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
+    padding-top : 30px ;
 }
 
 .middle-container-3-content:hover {

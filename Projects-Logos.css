@@ -1,26 +1,23 @@
-* {
+body , html {
 
-    font-family : Oswald , sans-serif ;
-}
-
-body {
-
-    background-color : white ;
-    background-repeat: none ;
-}
-
-/* Top Content */
-
-.head-container {
-
-    top : 0 ; left : 0 ;
     width : 100% ;
-    text-align : center ;
-    font-size : 15px ;
-    letter-spacing: 2px ;
+    height : 100% ;
+    padding : 0 ;
+    margin : 0 ;
 }
 
 /* Navigate Bar */ 
+
+.navigate-bar {
+
+    top : 0 ;
+    width : 100% ;
+    font-family : Oswald , sans-serif ;
+    background : linear-gradient( rgba( 0,0,0,0) , rgba( 0,0,0,0 ) ) ;
+    backdrop-filter : blur( 3px ) ;
+    box-shadow : 0 8px 36px 0 rgba( 0,0,0,0.10 ) ;
+    position : fixed ;
+}
 
 .navigate-bar li{
 
@@ -30,18 +27,24 @@ body {
     margin-left : 180px ;
 }
 
-.navigate-bar li:hover {
+.navigate-bar a {
 
+    color : #1d1d1dff ;
+    text-decoration : none ;
     transition-duration : 0.1s ;
-    border-bottom : solid gold 8px ;
 }
 
+.navigate-bar a:hover {
+
+    transition-duration : 0.1s ;
+    color : gold ;
+}
 /* First 4 Logos [ First Row ] */
 
 .logos-container-1 {
 
     display : flex ;
-    padding-top : 50px ;
+    padding-top : 100px ;
     padding-left : 120px ;
 }
 

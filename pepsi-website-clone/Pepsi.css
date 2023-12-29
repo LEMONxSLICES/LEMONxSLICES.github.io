@@ -1,0 +1,164 @@
+body , html {
+
+    width : 100% ;
+    height : 100% ;
+    margin : 0 ;
+    padding : 0 ;
+}
+
+/* Top Panel */
+
+.top-panel {
+
+    width : 100% ;
+    background : linear-gradient( to right , rgba(0, 140, 255 , 0.50) , rgba(23, 23, 255 , 0.50) ) ;
+    position : fixed ;
+    z-index : 3 ;
+    top : 0 ;
+    display : flex ;
+}
+
+/* Pepsi Logo */
+
+.pepsi-logo {
+
+    flex : 10% ;
+}
+
+.logo {
+
+    width : 120px ;
+    margin-left : 40px ;
+    margin-top : 5px ; 
+}
+
+/* Top Elements ( Header ) */
+
+.top-elements {
+
+    flex : auto ;
+    font-family : Oswald ;
+    padding-top : 12px ;
+    width : 100% ;
+}
+
+.top-elements li {
+
+    display : inline-block ;
+}
+
+.top-elements a {
+
+    color : white ;
+    text-decoration : none ;
+    padding : 5px ;
+    margin-right : 80px ;
+    font-size: 30px ;
+    transition-duration : 0.2s ;
+}
+
+.top-elements a:hover {
+
+    border-bottom : solid 8px rgb(255, 69, 69) ;
+}
+
+/* Qoate on Vieo */
+
+.qoute-img {
+
+    position : absolute ;
+    left : 0 ;
+    margin-left : 350px ;
+    margin-top : 490px ;
+    width : 700px ;
+    z-index : 1 ;
+}
+
+/* 125 Year For Pepsi */
+
+.year-125 {
+
+    background-color : #1f1f1fff ;
+    padding : 200px 100px ;
+    text-align : center ;
+    color : #ecececff ;
+    font-family : Oswald ;
+    font-size : 30px ;
+    border : solid #1d1d1dff ;
+}
+
+.join-now-button {
+
+    margin-left : 450px ;
+    background : linear-gradient( to right , rgb(16, 145, 204) , rgb(0, 64, 116) ) ;
+    width : 300px ;
+    border-radius : 20px ;
+    transition-duration : 0.2s ;
+}
+
+.join-now-button:hover {
+
+    background : linear-gradient( to right , rgb(204, 16, 16) , rgb(116, 0, 0) ) ;
+}
+
+/* pepsi with soccer */
+
+.pepsi-with-soccer {
+
+    background-color : #ecececff ; 
+    color : #1d1d1dff ;
+    font-family : Oswald ;
+    text-align : center ;
+    height : 700px ;
+}
+
+.pepsi-stars {
+
+    width : 900px ;
+    margin-left : 50px ;
+}
+
+.prem-champ-league-logo {
+
+    width : 250px ;
+    margin-right : 10px ;
+}
+
+/* Memories with pepsi */
+
+.pepsi-with-memories {
+
+    color : #ecececff ;
+    background-color : #1d1d1dff ;
+    display : flex ;
+}
+
+.content {
+
+    font-family : Oswald ;
+    font-size : 50px ;
+    margin : 140px 50px ;
+}
+
+.people-drinking-pepsi-img {
+
+    width : 900px ;
+    margin-left : 100px ;
+}
+
+/* Footer */
+
+.footer {
+
+    background-color :rgb(16, 145, 204) ;
+    padding : 20px ;
+    display : flex ;
+    color : #ecececff ;
+    font-size : 20px ;
+    font-family : Oswald ;
+}
+
+.footer li {
+
+    list-style : none ;
+}
