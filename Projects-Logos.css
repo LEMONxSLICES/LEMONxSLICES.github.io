@@ -39,7 +39,8 @@ body , html {
     transition-duration : 0.1s ;
     color : gold ;
 }
-/* First 4 Logos [ First Row ] */
+
+/* First Row */
 
 .logos-container-1 {
 
@@ -68,8 +69,7 @@ body , html {
     flex : 25% ;
 }
 
-/* Second 4 Logos [ Second Row ] */
-
+/* Second Row */
 
 .logos-container-2 {
 
@@ -98,8 +98,7 @@ body , html {
     flex : 25% ;
 }
 
-/* Third 4 Logos [ Third Row ] */
-
+/* Third Row */
 
 .logos-container-3 {
 
@@ -128,8 +127,7 @@ body , html {
     flex : 25% ;
 }
 
-/* Fourth 4 Logos [ Fourth Row ] */
-
+/* Fourth Row */
 
 .logos-container-4 {
 
@@ -154,6 +152,35 @@ body , html {
 }
 
 .logo_img_16 {
+
+    flex : 25% ;
+}
+
+/* Fifth Row */
+
+.logos-container-5 {
+
+    display : flex ;
+    padding-top : 50px ;
+    padding-left : 120px ;
+}
+
+.logo_img_17 {
+
+    flex : 25% ;
+}
+
+.logo_img_18 {
+
+    flex : 25% ;
+}
+
+.logo_img_19 {
+
+    flex : 25% ;
+}
+
+.logo_img_20 {
 
     flex : 25% ;
 }
