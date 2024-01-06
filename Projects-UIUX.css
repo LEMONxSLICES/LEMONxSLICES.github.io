@@ -41,12 +41,13 @@ body , html {
     transition-duration : 0.1s ;
     color : gold ;
 }
-/* Project 1 */
 
 .section {
 
     margin : 200px 50px ;
 }
+
+/* Project 1 */
 
 .middle-container-1 {
 
@@ -209,6 +210,48 @@ body , html {
 }
 
 .img-4 {
+
+    margin-left : 130px ;
+    border-radius : 15px ;
+}
+
+/* Project 1 */
+
+.middle-container-5 {
+
+    margin-top : 100px ;
+    display : flex ;
+}
+
+.middle-container-5-content {
+
+    border-radius : 15px ;
+    background : linear-gradient( to right bottom , lightblue , pink ) ;
+    flex : 30% ;
+    font-size : 20px ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-5-content:hover {
+
+    margin-bottom : 3px ;
+    margin-left : 3px ;
+    box-shadow: inset 8px -8px pink ;
+}
+
+.middle-container-5-img {
+
+    flex : 50% ;
+    border-radius : 15px ;
+}
+
+.content-5 {
+
+    padding : 100px ;
+    margin-left : 20px ;
+}
+
+.img-5 {
 
     margin-left : 130px ;
     border-radius : 15px ;
