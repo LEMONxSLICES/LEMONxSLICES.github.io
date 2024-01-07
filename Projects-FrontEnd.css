@@ -81,8 +81,8 @@ body , html {
 
 .content-1 {
 
-    padding : 50px ;
-    margin-left : 20px ;
+    text-align : center ;
+    margin-top : 80px ;
 }
 
 .img-1 {
@@ -125,8 +125,8 @@ body , html {
 
 .content-2 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    text-align : center ;
+    margin-top : 130px ;
 }
 
 .img-2 {
@@ -170,8 +170,8 @@ body , html {
 
 .content-3 {
 
-    padding : 50px ;
-    margin-left : 20px ;
+    text-align : center ;
+    margin-top : 60px ;
 }
 
 .img-3 {

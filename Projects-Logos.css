@@ -184,3 +184,47 @@ body , html {
 
     flex : 25% ;
 }
+
+/* 50 Logo Challenge Intro */
+
+.challenge-50-Logo-intro {
+
+    display : flex ;
+    font-family : 'Oswald' ;
+    margin-left : 450px ;
+    margin-top : 80px ;
+}
+
+/* 50 Logo Challenge */
+
+.challenge-50-Logo {
+
+    margin-top : 50px ;
+    background-color : white ;
+    box-shadow : 0 8px 36px 0 rgba(0,0,0,0.30) ;
+    border-radius : 20px ;
+}
+
+.challenge {
+
+    padding : 30px ;
+    display : flex ;
+    margin : 30px ;
+}
+
+.challenge-content {
+
+    flex : 70% ;
+    font-family : 'Outfit' ;
+    padding : 50px ;
+    margin-top : 80px ;
+}
+
+.challenge-logo {
+
+    width : 300px ;
+    margin-right : 100px ;
+    background-color : white ;
+    box-shadow : 0 8px 36px 0 rgba(0,0,0,0.30) ;
+    border-radius : 20px ;
+}

@@ -58,7 +58,7 @@ body , html {
 .middle-container-1-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , lightblue , pink ) ;
+    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
@@ -68,7 +68,7 @@ body , html {
 
     margin-bottom : 3px ;
     margin-left : 3px ;
-    box-shadow: inset 8px -8px pink ;
+    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
 }
 
 .middle-container-1-img {
@@ -79,8 +79,8 @@ body , html {
 
 .content-1 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    text-align : center ;
+    margin-top : 150px ;
 }
 
 .img-1 {
@@ -100,7 +100,7 @@ body , html {
 .middle-container-2-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , lightblue , pink ) ;
+    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
@@ -110,7 +110,7 @@ body , html {
 
     margin-bottom : 3px ;
     margin-left : 3px ;
-    box-shadow: inset 8px -8px pink ;
+    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
 }
 
 .middle-container-2-img {
@@ -121,8 +121,8 @@ body , html {
 
 .content-2 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    text-align : center ;
+    margin-top : 130px ;
 }
 
 .img-2 {
@@ -142,7 +142,7 @@ body , html {
 .middle-container-3-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , lightblue , pink ) ;
+    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
@@ -152,7 +152,7 @@ body , html {
 
     margin-bottom : 3px ;
     margin-left : 3px ;
-    box-shadow: inset 8px -8px pink ;
+    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
 }
 
 .middle-container-3-img {
@@ -163,8 +163,8 @@ body , html {
 
 .content-3 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    text-align : center ;
+    margin-top : 160px ;
 }
 
 .img-3 {
@@ -184,7 +184,7 @@ body , html {
 .middle-container-4-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , lightblue , pink ) ;
+    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
@@ -194,7 +194,7 @@ body , html {
 
     margin-bottom : 3px ;
     margin-left : 3px ;
-    box-shadow: inset 8px -8px pink ;
+    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
 }
 
 .middle-container-4-img {
@@ -205,8 +205,8 @@ body , html {
 
 .content-4 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    text-align : center ;
+    margin-top : 160px ;
 }
 
 .img-4 {
@@ -226,7 +226,7 @@ body , html {
 .middle-container-5-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , lightblue , pink ) ;
+    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
@@ -236,7 +236,7 @@ body , html {
 
     margin-bottom : 3px ;
     margin-left : 3px ;
-    box-shadow: inset 8px -8px pink ;
+    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
 }
 
 .middle-container-5-img {
@@ -247,8 +247,8 @@ body , html {
 
 .content-5 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    text-align : center ;
+    margin-top : 150px ;
 }
 
 .img-5 {

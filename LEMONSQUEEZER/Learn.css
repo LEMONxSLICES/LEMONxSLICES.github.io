@@ -113,11 +113,6 @@ body , html {
     margin-left : 700px ;
 }
 
-.content-container .container-1:hover .recommended-button {
-
-    visibility : visible ;
-} 
-
 /* Container 2 */
 
 .container-2 {
@@ -162,4 +157,38 @@ body , html {
 .container-3 a:hover {
 
     color : rgb(76, 76, 255) ;
+}
+
+/* Footer */
+
+.footer {
+
+    background-color : #ecececff ;
+    box-shadow : 0 8px 36px 0 rgba(0,0,0,0.20) ;
+    padding : 20px ;
+    display : flex ;
+    margin-top : 30px ;
+}
+
+.footer-div {
+
+    margin-top : 8px ;
+    margin-left : 200px ;
+}
+
+.footer-div li {
+
+    list-style : none ;
+    margin-top : 20px ;
+}
+
+.footer-div a {
+
+    color : #1d1d1dff ;
+    text-decoration : none ;
+}
+
+.footer-div a:hover {
+
+    color : gold ;
 }
