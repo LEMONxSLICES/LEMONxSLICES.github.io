@@ -228,3 +228,17 @@ body , html {
     box-shadow : 0 8px 36px 0 rgba(0,0,0,0.30) ;
     border-radius : 20px ;
 }
+
+/* My Logos */
+
+.my-logos-container {
+
+    display : flex ;
+    padding-top : 100px ;
+    padding-left : 120px ;
+}
+
+.logo {
+
+    flex : 25% ;
+}
