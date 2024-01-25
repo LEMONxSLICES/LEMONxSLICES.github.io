@@ -5,7 +5,7 @@ body , html {
     padding : 0 ;
     margin : 0 ;
     font-family : Oswald , 'sans-serif' ;
-    background : linear-gradient( to right , orange , rgb( 255 , 31 , 31 ) ) ;
+    background : white ;
 }
 
 /* Navigate Bar */ 
@@ -46,38 +46,38 @@ body , html {
 
 .section {
 
-    margin-top : 200px ;
-    margin-left : 50px ;
+    margin : 180px 50px ;
 }
 /* Project 1 */
 
 .middle-container-1 {
 
-    margin-top : 100px ;
+    border-radius : 15px ;
     display : flex ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-1:hover {
+
+    padding-right : 2px ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ;
 }
 
 .middle-container-1-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , orange , rgb(255, 31, 31) ) ;
     flex : 30% ;
-    font-size : 20px ;
+    font-size : 30px ;
     transition-duration : 0.2s ;
-    padding-top : 50px ;
-}
-
-.middle-container-1-content:hover {
-
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px yellow ;
+    padding-top : 26px ;
+    padding-left : 30px ;
 }
 
 .middle-container-1-img {
 
     flex : 50% ;
     border-radius : 15px ;
+    margin : 20px 30px ;
 }
 
 .content-1 {
@@ -90,136 +90,173 @@ body , html {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    transition-duration : 0.1s ;
+    width : 600px ;
+}
+
+.img-1:hover {
+
+    box-shadow : 0 0 20px 0 rgba(0,0,0,0.5) ;
+    width : 605px ;
 }
 
 /* Project 2 */
 
 .middle-container-2 {
 
-    margin-top : 100px ;
+    margin : 40px 0px ;
+    border-radius : 15px ;
     display : flex ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-2:hover {
+
+    padding-right : 2px ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ;
 }
 
 .middle-container-2-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , orange , rgb(255, 31, 31) ) ;
     flex : 30% ;
-    font-size : 20px ;
+    font-size : 30px ;
     transition-duration : 0.2s ;
-    padding-top : 20px ;
-    padding-left : 20px ;
-}
-
-.middle-container-2-content:hover {
-
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px yellow ;
+    padding-top : 26px ;
+    padding-left : 30px ;
 }
 
 .middle-container-2-img {
 
     flex : 50% ;
     border-radius : 15px ;
+    margin : 35px 30px ;
 }
 
 .content-2 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    padding : 20px ;
+    margin : 130px 30px ;
 }
 
 .img-2 {
 
-    margin-left : 130px ;
+    margin-left : 120px ;
     border-radius : 15px ;
+    transition-duration : 0.1s ;
+    width : 600px ;
+}
+
+.img-2:hover {
+
+    box-shadow : 0 0 20px 0 rgba(0,0,0,0.5) ;
+    width : 605px ;
 }
 
 /* Project 3 */
 
 .middle-container-3 {
 
-    margin-top : 100px ;
+    margin : 40px 0px ;
+    border-radius : 15px ;
     display : flex ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-3:hover {
+
+    padding-right : 2px ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ;
 }
 
 .middle-container-3-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , orange , rgb(255, 31, 31) ) ;
     flex : 30% ;
-    font-size : 20px ;
+    font-size : 30px ;
     transition-duration : 0.2s ;
-    padding-top : 30px ;
-}
-
-.middle-container-3-content:hover {
-
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px yellow ;
+    padding-top : 26px ;
+    padding-left : 30px ;
 }
 
 .middle-container-3-img {
 
     flex : 50% ;
     border-radius : 15px ;
+    margin : 35px 30px ;
 }
 
 .content-3 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    padding : 20px ;
+    margin : 100px 30px ;
 }
 
 .img-3 {
 
-    margin-left : 130px ;
+    margin-left : 120px ;
     border-radius : 15px ;
+    transition-duration : 0.1s ;
+    width : 600px ;
+}
+
+.img-3:hover {
+
+    box-shadow : 0 0 20px 0 rgba(0,0,0,0.5) ;
+    width : 605px ;
 }
 
 /* Project 4 */
 
 .middle-container-4 {
 
-    margin-top : 100px ;
+    margin : 40px 0px ;
+    border-radius : 15px ;
     display : flex ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-4:hover {
+
+    padding-right : 2px ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ;
 }
 
 .middle-container-4-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , orange , rgb(255, 31, 31) ) ;
     flex : 30% ;
-    font-size : 20px ;
+    font-size : 30px ;
     transition-duration : 0.2s ;
-    padding-top : 30px ;
-}
-
-.middle-container-4-content:hover {
-
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px yellow ;
+    padding-top : 26px ;
+    padding-left : 30px ;
 }
 
 .middle-container-4-img {
 
     flex : 50% ;
     border-radius : 15px ;
+    margin : 35px 30px ;
 }
 
 .content-4 {
 
-    padding : 100px ;
-    margin-left : 20px ;
+    padding : 20px ;
+    margin : 150px 30px ;
 }
 
 .img-4 {
 
-    margin-left : 130px ;
+    margin-left : 120px ;
     border-radius : 15px ;
+    transition-duration : 0.1s ;
+    width : 600px ;
+}
+
+.img-4:hover {
+
+    box-shadow : 0 0 20px 0 rgba(0,0,0,0.5) ;
+    width : 605px ;
 }
 
 /* Project 5 */

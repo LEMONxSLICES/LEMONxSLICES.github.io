@@ -5,7 +5,7 @@ body , html {
     padding : 0 ;
     margin : 0 ;
     font-family : Oswald , 'sans-serif' ;
-    background : linear-gradient( to right , greenyellow , yellow ) ;
+    background-color : white ;
 }
 
 /* Navigate Bar */ 
@@ -14,10 +14,9 @@ body , html {
 
     top : 0 ;
     width : 100% ;
+    border : solid red ;
     font-family : Oswald , sans-serif ;
-    background : linear-gradient( rgba( 0,0,0,0) , rgba( 0,0,0,0 ) ) ;
     backdrop-filter : blur( 3px ) ;
-    box-shadow : 0 8px 36px 0 rgba( 0,0,0,0.10 ) ;
     position : fixed ;
 }
 
@@ -46,49 +45,59 @@ body , html {
 
 .section {
 
-    margin-top : 200px ;
-    margin-left : 50px ;
+    margin : 200px 50px ;
 }
+
+/* Project 1 */
 
 .middle-container-1 {
 
     margin-top : 100px ;
     display : flex ;
+    border-radius : 15px ;
+    padding : 30px ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-1:hover {
+
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.5) ; 
 }
 
 .middle-container-1-content {
 
     border-radius : 15px ;
     padding-top : 20px ;
-    background : linear-gradient( to right bottom , limegreen , rgb(255, 255, 37) ) ;
     flex : 30% ;
     font-size : 20px ;
-    transition-duration : 0.2s ;
-}
-
-.middle-container-1-content:hover {
-
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px rgb(255, 255, 37) ;
 }
 
 .middle-container-1-img {
 
     flex : 50% ;
     border-radius : 15px ;
+    padding : 15px ;
 }
 
 .content-1 {
 
     text-align : center ;
     margin-top : 80px ;
+    font-size : 30px ;
 }
 
 .img-1 {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    transition-duration: 0.1s ;
+    width : 600px ;
+}
+
+.img-1:hover {
+
+    width : 605px ;
+    box-shadow : 0 0 30px 0 rgba(0,0,0,0.3) ;
 }
 
 /* Project 2 */
@@ -97,42 +106,50 @@ body , html {
 
     margin-top : 100px ;
     display : flex ;
+    border-radius : 15px ;
+    padding : 30px ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-2:hover {
+
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.5) ; 
 }
 
 .middle-container-2-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , limegreen , rgb(255, 255, 37) ) ;
+    padding-top : 20px ;
     flex : 30% ;
     font-size : 20px ;
-    transition-duration : 0.2s ;
-    padding-bottom : 20px ;
-}
-
-.middle-container-2-content:hover {
-
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px rgb(255, 255, 37) ;
 }
 
 .middle-container-2-img {
 
-    padding-top : 20px ;
-    border-radius : 15px ;
     flex : 50% ;
+    border-radius : 15px ;
+    padding : 15px ;
 }
 
 .content-2 {
 
     text-align : center ;
-    margin-top : 130px ;
+    margin-top : 80px ;
+    font-size : 30px ;
 }
 
 .img-2 {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    transition-duration: 0.1s ;
+    width : 600px ;
+}
+
+.img-2:hover {
+
+    width : 605px ;
+    box-shadow : 0 0 30px 0 rgba(0,0,0,0.3) ;
 }
 
 /* Project 3 */
@@ -141,41 +158,48 @@ body , html {
 
     margin-top : 100px ;
     display : flex ;
+    border-radius : 15px ;
+    padding : 30px ;
+    transition-duration : 0.2s ;
+}
+
+.middle-container-3:hover {
+
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.5) ; 
 }
 
 .middle-container-3-content {
 
     border-radius : 15px ;
-    background : linear-gradient( to right bottom , limegreen , rgb(255, 255, 37) ) ;
+    padding-top : 20px ;
     flex : 30% ;
     font-size : 20px ;
-    transition-duration : 0.2s ;
-    padding-top : 50px ;
-    padding-right : 20px ;
-    text-align : center ;
-}
-
-.middle-container-3-content:hover {
-
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px rgb(255, 255, 37) ;
 }
 
 .middle-container-3-img {
 
     flex : 50% ;
     border-radius : 15px ;
+    padding : 15px ;
 }
 
 .content-3 {
 
     text-align : center ;
-    margin-top : 60px ;
+    margin-top : 80px ;
+    font-size : 30px ;
 }
 
 .img-3 {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    transition-duration: 0.1s ;
+    width : 600px ;
+}
+
+.img-3:hover {
+
+    width : 605px ;
+    box-shadow : 0 0 30px 0 rgba(0,0,0,0.3) ;
 }

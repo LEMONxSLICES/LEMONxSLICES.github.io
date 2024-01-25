@@ -5,7 +5,7 @@ body , html {
     padding : 0 ;
     margin : 0 ;
     font-family : Oswald , 'sans-serif' ;
-    background-color : pink ;
+    background-color : white ;
 }
 
 /* Navigate Bar */ 
@@ -52,41 +52,50 @@ body , html {
 .middle-container-1 {
 
     margin-top : 100px ;
+    border-radius : 15px ;
+    padding : 10px ;
     display : flex ;
+    transition : 0.2s ;
 }
 
 .middle-container-1-content {
 
     border-radius : 15px ;
-    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
 }
 
-.middle-container-1-content:hover {
+.middle-container-1:hover {
 
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ; 
 }
 
 .middle-container-1-img {
 
     flex : 50% ;
-    border-radius : 15px ;
+    padding : 15px ;
 }
 
 .content-1 {
 
+    font-size: 30px;
     text-align : center ;
-    margin-top : 150px ;
+    margin-top : 130px ;
 }
 
 .img-1 {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    width : 600px ;
+    transition-duration: 0.1s;
+}
+
+.img-1:hover {
+
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.3) ;
+    width : 605px ;
 }
 
 /* Project 2 */
@@ -94,33 +103,34 @@ body , html {
 .middle-container-2 {
 
     margin-top : 100px ;
+    border-radius : 15px ;
+    padding : 10px ;
     display : flex ;
+    transition : 0.2s ;
 }
 
 .middle-container-2-content {
 
     border-radius : 15px ;
-    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
 }
 
-.middle-container-2-content:hover {
+.middle-container-2:hover {
 
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ; 
 }
 
 .middle-container-2-img {
 
     flex : 50% ;
-    border-radius : 15px ;
+    padding : 15px ;
 }
 
 .content-2 {
 
+    font-size: 30px;
     text-align : center ;
     margin-top : 130px ;
 }
@@ -129,6 +139,14 @@ body , html {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    width : 600px ;
+    transition-duration: 0.1s;
+}
+
+.img-2:hover {
+
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.3) ;
+    width : 605px ;
 }
 
 /* Project 3 */
@@ -136,33 +154,34 @@ body , html {
 .middle-container-3 {
 
     margin-top : 100px ;
+    border-radius : 15px ;
+    padding : 10px ;
     display : flex ;
+    transition : 0.2s ;
 }
 
 .middle-container-3-content {
 
     border-radius : 15px ;
-    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
 }
 
-.middle-container-3-content:hover {
+.middle-container-3:hover {
 
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ; 
 }
 
 .middle-container-3-img {
 
     flex : 50% ;
-    border-radius : 15px ;
+    padding : 15px ;
 }
 
 .content-3 {
 
+    font-size : 30px ;
     text-align : center ;
     margin-top : 160px ;
 }
@@ -171,6 +190,14 @@ body , html {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    width : 600px ;
+    transition-duration: 0.1s;
+}
+
+.img-3:hover {
+
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.3) ;
+    width : 605px ;
 }
 
 /* Project 4 */
@@ -178,33 +205,34 @@ body , html {
 .middle-container-4 {
 
     margin-top : 100px ;
+    border-radius : 15px ;
+    padding : 10px ;
     display : flex ;
+    transition : 0.2s ;
 }
 
 .middle-container-4-content {
 
     border-radius : 15px ;
-    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
 }
 
-.middle-container-4-content:hover {
+.middle-container-4:hover {
 
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ; 
 }
 
 .middle-container-4-img {
 
     flex : 50% ;
-    border-radius : 15px ;
+    padding : 15px ;
 }
 
 .content-4 {
 
+    font-size : 30px ;
     text-align : center ;
     margin-top : 160px ;
 }
@@ -213,40 +241,50 @@ body , html {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    width : 600px ;
+    transition-duration: 0.1s;
 }
 
-/* Project 1 */
+.img-4:hover {
+
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.3) ;
+    width : 605px ;
+}
+
+
+/* Project 5 */
 
 .middle-container-5 {
 
     margin-top : 100px ;
+    border-radius : 15px ;
+    padding : 10px ;
     display : flex ;
+    transition : 0.2s ;
 }
 
 .middle-container-5-content {
 
     border-radius : 15px ;
-    background : lightblue ;
     flex : 30% ;
     font-size : 20px ;
     transition-duration : 0.2s ;
 }
 
-.middle-container-5-content:hover {
+.middle-container-5:hover {
 
-    margin-bottom : 3px ;
-    margin-left : 3px ;
-    box-shadow: inset 8px -8px rgb(128, 181, 199) ;
+    box-shadow : 0 0 36px 0 rgba( 0,0,0,0.5 ) ; 
 }
 
 .middle-container-5-img {
 
     flex : 50% ;
-    border-radius : 15px ;
+    padding : 15px ;
 }
 
 .content-5 {
 
+    font-size : 30px ;
     text-align : center ;
     margin-top : 150px ;
 }
@@ -255,4 +293,12 @@ body , html {
 
     margin-left : 130px ;
     border-radius : 15px ;
+    width : 600px ;
+    transition-duration: 0.1s;
+}
+
+.img-5:hover {
+
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.3) ;
+    width : 605px ;
 }
