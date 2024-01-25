@@ -8,19 +8,108 @@ body , html {
     background-color : white ;
 }
 
-/* Navigate Bar */ 
+/* Profile */
 
-.navigate-bar {
+.profile {
+
+    padding : 12% ;
+    display: flex ;
+    width : 76% ;
+    height : 400px ;
+    background : linear-gradient( pink , yellow ) ;
+}
+
+.pfp {
+
+    border-radius : 100% ;
+}
+
+.name-profession {
+
+    font-family : "Outfit" ; /* local font */
+    color : white ;
+    font-size : 30px ;
+    margin-left : 150px ;
+}
+
+/* Contact */
+
+.contact {
 
     top : 0 ;
-    width : 100% ;
-    border : solid red ;
-    font-family : Oswald , sans-serif ;
-    backdrop-filter : blur( 3px ) ;
+    right : 0 ;
+    margin-top : 250px ;
+    margin-right : 10px ;
+    display : flex ;
+    flex-direction : column ;
     position : fixed ;
 }
 
-.navigate-bar li {
+.contact img {
+
+    width : 30px ;
+    margin-top : 10px ;
+    transition-duration : 0.2s ;
+}
+
+.contact img:hover {
+
+    width : 35px ;
+}
+
+/* Floating Objects */
+
+@keyframes float-X-1-anim {
+
+    0%{ transform : rotate( 0deg ) ; }
+    50%{ transform : rotate( 180deg ) ; }
+    100%{ transform : rotate( 360deg ) ; }
+}
+
+
+.float-X-1 {
+
+    width : 50px ;
+    position : absolute ;
+    margin : 100px 0 0 400px ;
+    animation-name : float-X-1-anim ;
+    animation-duration : 8s ;
+    animation-iteration-count : infinite ;
+    animation-timing-function : linear ;
+}
+
+.float-X-2 {
+
+    width : 100px ;
+    position : absolute ;
+    margin : 140px 0 0 80px ;
+    animation-name : float-X-1-anim ;
+    animation-duration : 20s ;
+    animation-iteration-count : infinite ;
+    animation-timing-function : linear ;
+    animation-direction : reverse ;
+    animation-delay : -5 ;
+}
+
+.float-circles {
+
+    width : 100px ;
+    position : absolute ;
+    margin : 380px 0 0 400px ;
+}
+
+/* Navigate Bar */
+
+.navigate-bar {
+
+    padding : 10px 0 10px 0 ;
+    width : 100% ;
+    font-family : Oswald , sans-serif ;
+    border-radius : 30px ;
+    box-shadow : 0 -22px 0 0 rgb(255, 255, 14) ;
+}
+
+.navigate-bar li{
 
     font-size : 30px ;
     font-weight : bold ;
@@ -45,7 +134,7 @@ body , html {
 
 .section {
 
-    margin : 200px 50px ;
+    margin : 100px 50px ;
 }
 
 /* Project 1 */
