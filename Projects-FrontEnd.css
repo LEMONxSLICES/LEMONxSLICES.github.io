@@ -5,18 +5,18 @@ body , html {
     padding : 0 ;
     margin : 0 ;
     font-family : Oswald , 'sans-serif' ;
-    background-color : white ;
+    background : linear-gradient( to left , pink , blueviolet ) ;
+    background-repeat : none ;
 }
 
 /* Profile */
 
 .profile {
 
-    padding : 12% ;
+    padding : 8% 15% ;
     display: flex ;
     width : 76% ;
     height : 400px ;
-    background : linear-gradient( pink , yellow ) ;
 }
 
 .pfp {
@@ -29,7 +29,7 @@ body , html {
     font-family : "Outfit" ; /* local font */
     color : white ;
     font-size : 30px ;
-    margin-left : 150px ;
+    margin-left : 100px ;
 }
 
 /* Contact */
@@ -71,7 +71,7 @@ body , html {
 
     width : 50px ;
     position : absolute ;
-    margin : 100px 0 0 400px ;
+    margin : 50px 0 0 400px ;
     animation-name : float-X-1-anim ;
     animation-duration : 8s ;
     animation-iteration-count : infinite ;
@@ -82,7 +82,7 @@ body , html {
 
     width : 100px ;
     position : absolute ;
-    margin : 140px 0 0 80px ;
+    margin : 100px 0 0 80px ;
     animation-name : float-X-1-anim ;
     animation-duration : 20s ;
     animation-iteration-count : infinite ;
@@ -95,7 +95,7 @@ body , html {
 
     width : 100px ;
     position : absolute ;
-    margin : 380px 0 0 400px ;
+    margin : 350px 0 0 400px ;
 }
 
 /* Navigate Bar */
@@ -106,7 +106,6 @@ body , html {
     width : 100% ;
     font-family : Oswald , sans-serif ;
     border-radius : 30px ;
-    box-shadow : 0 -22px 0 0 rgb(255, 255, 14) ;
 }
 
 .navigate-bar li{
@@ -114,12 +113,12 @@ body , html {
     font-size : 30px ;
     font-weight : bold ;
     display : inline ;
-    margin-left : 180px ;
+    margin-left : 145px ;
 }
 
 .navigate-bar a {
 
-    color : #1d1d1dff ;
+    color : black ;
     text-decoration : none ;
     transition-duration : 0.1s ;
 }
@@ -134,7 +133,10 @@ body , html {
 
 .section {
 
-    margin : 100px 50px ;
+    margin : 0px 100px ;
+    box-shadow : 0 0 36px 0 rgba(0,0,0,0.2) ;
+    border-radius : 30px ;
+    padding : 10px 30px ;
 }
 
 /* Project 1 */
@@ -158,7 +160,6 @@ body , html {
     border-radius : 15px ;
     padding-top : 20px ;
     flex : 30% ;
-    font-size : 20px ;
 }
 
 .middle-container-1-img {
@@ -171,8 +172,8 @@ body , html {
 .content-1 {
 
     text-align : center ;
-    margin-top : 80px ;
-    font-size : 30px ;
+    margin-top : 90px ;
+    font-size : 20px ;
 }
 
 .img-1 {
@@ -224,7 +225,7 @@ body , html {
 
     text-align : center ;
     margin-top : 80px ;
-    font-size : 30px ;
+    font-size : 20px ;
 }
 
 .img-2 {
@@ -276,7 +277,7 @@ body , html {
 
     text-align : center ;
     margin-top : 80px ;
-    font-size : 30px ;
+    font-size : 20px ;
 }
 
 .img-3 {
